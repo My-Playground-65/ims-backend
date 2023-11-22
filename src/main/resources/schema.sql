@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS course (
     id INT AUTO_INCREMENT PRIMARY KEY ,
     name VARCHAR(50) NOT NULL ,
     duration_in_months INT NOT NULL
-)
+);
 CREATE TABLE IF NOT EXISTS teacher_course(
     teacher_id INT,
     course_id INT,
